@@ -3,7 +3,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 10; 
     Button1 = "Ok";
 
-    Text = "The Plains Version Loaded"
+    Text = "Desert Version Loaded"
 
 })
 
@@ -62,7 +62,7 @@ task.wait(0.25)
 
 task.spawn(function()
     local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/WyvernMenu",true))()
-    local win = discord:Window("Connect Hub | Desert | Support")
+    local win = discord:Window("Connect Hub | Desert | Support | Not Recommended For Use In The Plains")
     local serv = win:Server("Desert Version", "http://www.roblox.com/asset/?id=6031075938")
     local main = serv:Channel("Home")
     main:Label("\nHello Thank For Using My script")
